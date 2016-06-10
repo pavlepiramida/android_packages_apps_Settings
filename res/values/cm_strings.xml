@@ -527,6 +527,18 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <string name="quiet_hours_haptic_summary">Disable haptic feedback</string>
     <string name="quiet_hours_active_period">Active from <xliff:g id="start">%1$s</xliff:g> to <xliff:g id="end">%2$s</xliff:g></string>
 
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_header_summary">@null</string>
+    <string name="wakelock_blocker">Wakelock Blocker</string>
+    <string name="battery_optimizer_title">Battery optimizer</string>
+    <string name="wakelock_blocker_title">Wakelock blocker</string>
+    <string name="wakelock_blocker_summary">Block system wakelocks</string>
+    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_list_header">Available wakelocks</string>
+    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_warning_title">Proceed with caution</string>
+    <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
     <!-- Ringer mute options -->
     <string name="quiet_hours_ringer_allow_all">Ring for all callers</string>
     <string name="quiet_hours_ringer_allow_contacts">Ring for all contacts</string>

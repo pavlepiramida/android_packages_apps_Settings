@@ -41,6 +41,11 @@
         android:title="@string/accessibility_system_title">
 
         <PreferenceScreen
+            android:key="wakelock_blocker"
+            android:fragment="com.android.settings.cyanogenmod.WakeLockBlocker"
+            android:title="@string/wakelock_blocker_title" />
+
+        <PreferenceScreen
             android:key="processor"
             android:fragment="com.android.settings.cyanogenmod.Processor"
             android:title="@string/processor_title" />
