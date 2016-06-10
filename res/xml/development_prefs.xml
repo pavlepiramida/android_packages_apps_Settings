@@ -319,6 +319,11 @@
             android:entries="@array/select_runtime_titles"
             android:entryValues="@array/select_runtime_values" />
 
+        <CheckBoxPreference
+            android:key="allow_signature_fake"
+            android:title="@string/allow_signature_fake"
+            android:summary="@string/allow_signature_fake_summary"/>
+
         <ListPreference
             android:key="app_process_limit"
             android:title="@string/app_process_limit_title"
